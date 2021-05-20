@@ -1,0 +1,34 @@
+
+.slide{
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+.slide:hover .dieuhuong{
+  display: block;
+}
+.chuyen-slide{
+  width: 9999px;
+  transition: all 0.5s;
+}
+#main .slide .chuyen-slide img{
+  width: 1000px;
+  height: 600px;
+  float:left;
+}
+.dieuhuong{
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  top: 40%;
+  padding-left: 20px;
+  display: none;
+  cursor: pointer;
+}
+.dieuhuong i:last-child{
+  position: relative;
+  left: 880px;
+}

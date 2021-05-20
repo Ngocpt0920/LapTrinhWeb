@@ -1,0 +1,290 @@
+body {
+    width: 1400px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+#header{
+    width: 100%;
+    height: 115px;
+    /* background-color: black; */
+    position: relative;
+}   
+#header img{
+    margin-left: 600px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.main{
+    width: 1400px;
+    height: 700px;
+    margin-top: 30px;
+
+}
+
+.body01 .body01_Left {
+    width: 20%;
+    height: 100%;
+}
+
+.body01 .body01_Left a p {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+
+.body01_Right p {
+    font-size: 22px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.body01_Right ul {
+    display: flex;
+    margin-left: 170px;
+    list-style: none;
+}
+
+.body01_Right ul li {
+    margin-left: 14px;
+}
+
+.body01_Right ul li:hover {
+    background-color: black;
+    color: white;
+}
+
+.body hr {
+    width: 90%;
+    margin-left: 65px;
+    background-color: black;
+}
+
+
+
+.body02 {
+    background-color: rgb(241, 239, 239);
+    height: 30%;
+    width: 90%;
+    margin-left: 60px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.body02 .body02_Left {
+    width: 70%;
+    height: 90%;
+    margin-left: 30px;
+}
+
+
+
+.body02_Right {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.body02_Left p {
+    margin-top: -7px;
+    font-size: 13px;
+}
+
+.Duoi ul li .inputEmail {
+    margin-left: 100px;
+    width: 200px;
+}
+
+.body02 .body02_Left .Duoi {
+    margin-left: -40px;
+}
+
+.Duoi ul {
+    padding-top: 20px;
+}
+
+.Duoi ul li .inputpass {
+    margin-left: 78px;
+    width: 200px;
+}
+
+
+.button01 {
+    background-color: #d5d7db;
+    color: black;
+    width: 180px;
+    height: 35px;
+    border: 1px solid black;
+}
+
+.button01:hover {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+
+.button01 p {
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.button02 {
+    background-color: #4267b2;
+    color: white;
+    width: 180px;
+    height: 35px;
+    border: 1px solid #4267b2;
+}
+
+.button02 p {
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.body03 {
+    background-color:  rgb(241, 239, 239);
+    height: 20%;
+    width: 90%;
+    margin-left: 60px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.body03_Left {
+    width: 70%;
+    margin-left: 30px;
+}
+
+.button03 {
+    background-color: #d5d7db;
+    color: black;
+    width: 180px;
+    height: 35px;
+    margin-left: 40px;
+    margin-top: 40px;
+    border: 1px solid black;
+}
+
+.button03 p {
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.button03:hover {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+
+.body04 {
+    margin-top: 20px;
+    height: 20%;
+    width: 90%;
+    margin-left: 60px;
+    display: flex;
+    background-color:  rgb(241, 239, 239);
+}
+
+.body04_Right {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.body04 .body04_Left {
+    width: 70%;
+    margin-left: 30px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    background-color: black;
+   display: flex;
+}
+
+.footer img{
+   height: 70px;
+   width: 15%;
+   margin-top: 20px;
+   margin-left: 20px;
+    
+}
+.hotro {
+    color: white;
+    margin-left: 70px;
+    margin-top: 10px;
+    width: 23%;
+}
+.gioithieu{
+    color: white;
+    margin-top: 10px;
+    width: 25%;
+}
+.lienhe{
+    margin-top: 10px;
+    color: white;
+    width: 25%;
+}
